@@ -1,0 +1,36 @@
+{
+  "name": "cucumber-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:all": "wdio run wdio.conf.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/cli": "^7.25.1",
+    "@wdio/cucumber-framework": "^7.25.1",
+    "@wdio/local-runner": "^7.25.1",
+    "@wdio/spec-reporter": "^7.25.1",
+    "chromedriver": "^107.0.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.3",
+    "wdio-chromedriver-service": "^7.3.2"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uvamanikumar/JEE.git"
+  },
+  "bugs": {
+    "url": "https://github.com/uvamanikumar/JEE/issues"
+  },
+  "homepage": "https://github.com/uvamanikumar/JEE#readme",
+  "dependencies": {
+    "selenium-standalone": "^8.2.3"
+  }
+}
